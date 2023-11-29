@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Arvind Assessment</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="z-index: 1;">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./public/images/logo.svg" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navContainer" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 navLinkContainer">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Company
+                        </a>
+                        <div class="dropdown-menu dropdownContainer">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="title">Company</div>
+                                    <div class="cardContainer">
+                                        <img src="./public/images/addContactLogo.svg" alt="">
+                                        <div class="cardTitle">
+                                            <div class="subHeading">About US</div>
+                                            <p>The people behind ShipUp and the story of shared success.</p>
+                                        </div>
+                                    </div>
+                                    <div class="cardContainer">
+                                        <img src="./public/images/locationRed.svg" alt="">
+                                        <div class="cardTitle">
+                                            <div class="subHeading">Partner With Us</div>
+                                            <p>Collbration with ShipUp and drive mutual growth</p>
+                                        </div>
+                                    </div>
+                                    <div class="cardContainer">
+                                        <img src="./public/images/brightLight.svg" alt="">
+                                        <div class="cardTitle">
+                                            <div class="subHeading">Career</div>
+                                            <p>Join the ShipUp</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 pb-2">
+                                    <div class="title">Newsroom</div>
+                                    <img src="./public/images/girlLaptop.png" height="180px" class="mt-2">
+                                    <p class="text-secondary mt-2">News and award</p>
+                                    <span style="color: #F67366; cursor: pointer;">Learn More <img
+                                            src="./public/images/rightArrow.svg" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Industries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">News and Media</a>
+                    </li>
+                </ul>
+                <div class="navBtns">
+                    <button class="myOutlineBtn">Request Quote</button>
+                    <button class="myPrimaryBtn">Join Now</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="welcomeSection my-5">
+        <img src="./public/images/ellipse.svg" class="ellipse">
+        <div class="leftSection">
+            <div class="welcomeText py-5">
+                <img src="./public/images/welcomeText.svg" class="py-5" />
+                <div class=" mt-5">
+                    <button class="myPrimaryBtn">Join Now</button>
+                    <!-- Button trigger modal -->
+                    <span type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <img src="./public/images/playDemo.svg" style="cursor: pointer;" />
+                    </span>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Demo</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <iframe id="ytplayer" width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+                                    </iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="rightSection">
+            <img src="./public/images/girl.png" width="700px" height="600px" />
+        </div>
+    </div>
+    <div class="priceCalculator">
+        <div class="legendInput">
+            <label for="origin">Origin</label>
+            <img src="./public/images/location.svg" alt="">
+            <input type="text" id="origin" placeholder="Enter Location">
+        </div>
+        <div class="legendInput">
+            <label for="destination">Destination</label>
+            <img src="./public/images/location.svg" alt="">
+            <input type="text" id="destination" placeholder="Enter Location">
+        </div>
+        <div class="legendInput">
+            <label for="weight">Weight</label>
+            <img src="./public/images/bag.svg" alt="">
+            <input type="number" id="weight" placeholder="Weight (KG)">
+        </div>
+        <button class="myPrimaryBtn">Check Price</button>
+    </div>
+    <div class="footer text-white mt-5">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row gap-5">
+                    <div class="col mb-3">
+                        <h5><img src="./public/images/logodark.svg"></h5>
+                        <p style="font-weight: 300;">ShipUp delivers an unparalleled customer service through dedicated
+                            customer teams, engaged people working in an agile culture, and a global footprint</p>
+                    </div>
+
+                    <div class="col mb-3">
+                        <h5>Explore</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About Us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Our Warehouses</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Blog</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News and Media</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col mb-3">
+                        <h5>Legal</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Terms</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 mb-3">
+                        <h5>Social Media</h5>
+                        <div class="mediaLinks">
+                            <a href="#"><img src="./public/images/fb.svg" alt=""></a>
+                            <a href="#"><img src="./public/images/twitter.svg" alt=""></a>
+                            <a href="#"><img src="./public/images/whatsapp.svg" alt=""></a>
+                            <a href="#"><img src="./public/images/fb.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center py-4 my-4 border-top">
+                    <img src="./public/images/darkLogoNG.svg" alt="">
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+</body>
+
+</html>

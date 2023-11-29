@@ -1,0 +1,143 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.navBtns {
+    display: flex;
+    gap: 30px;
+}
+
+.myPrimaryBtn,
+.myOutlineBtn {
+    border-radius: 12px;
+    padding: 20px 40px;
+    background-color: #2C2D5B;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+    width: 215px;
+}
+.nav-item{
+    width: 135px;
+}
+
+.myPrimaryBtn:hover {
+    background-color: #525382;
+    cursor: pointer;
+}
+
+.myOutlineBtn {
+    background-color: white;
+    color: #2C2D5B;
+    border: 1px solid #2C2D5B;
+}
+
+.myOutlineBtn:hover {
+    background-color: #2C2D5B;
+    color: white;
+}
+
+.navContainer {
+    justify-content: space-around;
+}
+
+.navLinkContainer{
+    gap: 30px;
+}
+
+.ellipse{
+    position: absolute;
+    height: 785px;
+    left: 0;
+    bottom: -60px;
+}
+
+.welcomeSection{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 1300px;
+    position: relative;
+
+}
+.welcomeSection > .leftSection{
+    z-index: 1;
+}
+.welcomeSection > .rightSection{
+}
+
+.priceCalculator{
+    width: 1140px;
+    height: 151px;
+    margin: 100px auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 0px 25px 0px #97979733;
+}
+
+.legendInput{
+    border: 1px solid lightgray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.legendInput > label{
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+    background: white;
+    padding: 0px 4px;
+    font-weight: bold;
+    color: gray;
+}
+.legendInput > img{
+    padding: 10px;
+}
+.legendInput > input{
+    border: none;
+    outline: none;
+}
+
+.footer{
+    background-color: #2C2D5B;
+}
+.mediaLinks{
+    display: flex;
+    gap: 20px;
+}
+
+.dropdownContainer{
+box-shadow: 0px 8px 4px 0px #0000001C;
+}
+
+.dropdownContainer .title {
+    font-weight: 800;
+    font-size: 24px;
+    width: 700px;
+    padding-left: 10px;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 25px;
+    padding: 0px 15px;
+}
+
+.subHeading{
+    font-size: 16px;
+    font-weight: 800;
+    margin: 5px 0px 0px;
+}
+
+.cardTitle > p{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.modal-backdrop {
+    display: none;
+}
