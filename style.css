@@ -16,9 +16,6 @@ body{
     transition: all 0.3s;
     width: 215px;
 }
-.nav-item{
-    width: 135px;
-}
 
 .myPrimaryBtn:hover {
     background-color: #525382;
